@@ -1,0 +1,52 @@
+.navbar {
+    background: black;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: orange;
+}
+
+body {
+    background: #fff3e0;
+    background-image: url("Images/Fitness.jpg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: burlywood;
+    font-family: 'Poppins',sans-serif;
+    line-height: 1.6;
+    text-align: center;
+}
+.fitness-container {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 255, 128, 0.3);
+}
+h1 {
+    color: black;
+    font-size: 28px;
+}
+.exercise-item {
+    padding: 15px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    font-weight: bold;
+    transition: 0.3s
+}
+.exercise-item:hover {
+    transform: scale(1.05);
+    color: #28a745;
+}

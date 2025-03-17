@@ -1,0 +1,53 @@
+.navbar {
+    background: black;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: orange;
+}
+
+body {
+    background: linear-gradient(to right, #ffdee9, #b5fffc);
+    background-image: url("Images/personalgoal.jpg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center 1280px;
+    color: #333;
+    font-family: 'Poppins',sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    padding: 20px;
+}
+.goal-container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px  10px rgba(0,0,0,0,1);
+}
+h1 {
+    background: linear-gradient(to right, #ff512f, #dd2476);
+    font-size: 28px;
+}
+.goal-item {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    font-style: italic;
+    cursor: pointer;
+}
+.goal-item:hover {
+    transform: scale(1.05s);
+    font-weight: bold;
+}
